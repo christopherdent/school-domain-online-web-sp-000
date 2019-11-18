@@ -1,26 +1,13 @@
 class School    
-
-def name=(name)
+  attr_accessor :name, :roster
   
-end 
-
-def name
-   
-
-def roster=(roster)
   
-end 
-
-def roster 
- 
-end 
- 
   def initialize(name)
     @name = name 
     @roster = {}
   end 
   
-    
+
   def add_student(name, grade)
     
 

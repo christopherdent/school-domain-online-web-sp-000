@@ -1,19 +1,18 @@
 class School    
 
 def name=(name)
-  @name=name 
+  
 end 
 
 def name
-  @name
-end 
+   
 
 def roster=(roster)
-  @roster=roster 
+  
 end 
 
 def roster 
-  @roster 
+ 
 end 
  
   def initialize(name)
@@ -24,30 +23,19 @@ end
     
   def add_student(name, grade)
     
-    #roster = { grade => 11,(key1) name [one, two, three](value1)}
-    
-    if roster[grade]
-      roster[grade] << name 
-    else 
-      roster[grade] = [name]
 
-    end 
   end 
 
 
   def grade(grade)
   
-    roster[grade]
+   
    
   end 
 
 
   def sort
-    sorted = {}
-    roster.each do |grade, name|
-      sorted[grade]= name.sort
-    end 
-    sorted 
+
   end
     
 
